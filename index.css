@@ -6,11 +6,13 @@ body{
 #header{
 	text-align: center;
 	margin: 0 auto;
-	color: blue;
+	background-color: gray;
+	color: white;
 }
 
 #nav{
-	background-color: skyblue;
+	background-color: #333333;
+
 }
 
 #nav ul{
@@ -18,25 +20,35 @@ body{
 }
 #nav li {
 	display: inline-block;
-	margin: 0px 2px 0px;
+	margin: 0px 6px 0px;
+}
+#nav li a {
+	color: white;
 }
 
 #nav li:hover{
-	background-color: white;
 	font-weight:bold;
 	transform: scale(1.5,1.5);
 }
 
 #header{
-	background-color: skyblue;
+	background-color: #333333;
 	margin: 0px auto;
 }
 .div{
 	margin:5px auto;
-	width: 100%;
-	float: left;
+	width: 75%;
 	overflow: hidden;
-	background-color: black;
+	background-color: #333333;
+	border: 1px solid;
+	padding: 20px;
+}
+
+#div1{
+	margin: 0 auto;
+	display: inline;
+	text-align: center;
+	
 }
 
 #img{
@@ -44,21 +56,17 @@ body{
 	width: 300px;
 	margin: 3px;
 	background-image: url(images/corgi.jpg);
-	float: left;
+	float: left; 
 	background-size: cover;
 }
-#p1{ margin: 1px;
+#p1{
+	margin: 10px;
 	display: inline;
 	color: white;
-	}
-
-#hobbiesimg1{
-	width: 49%%;
-	margin: 1px;
-	background-image: url();
-	float: left;
-	background-size: cover;
+	
 }
+
+
 @media all and (max-width: 480px) {
 	#img{
 		height: 100px;
