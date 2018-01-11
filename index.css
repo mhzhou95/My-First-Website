@@ -1,0 +1,67 @@
+body{
+	 background-image: url(images/background.jpg);
+	 background-repeat:no-repeat;
+	 background-size:cover;
+}
+#header{
+	text-align: center;
+	margin: 0 auto;
+	color: blue;
+}
+
+#nav{
+	background-color: skyblue;
+}
+
+#nav ul{
+	text-align: center;
+}
+#nav li {
+	display: inline-block;
+	margin: 0px 2px 0px;
+}
+
+#nav li:hover{
+	background-color: white;
+	font-weight:bold;
+	transform: scale(1.5,1.5);
+}
+
+#header{
+	background-color: skyblue;
+	margin: 0px auto;
+}
+.div{
+	margin:5px auto;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: black;
+}
+
+#img{
+	height: 250px;
+	width: 300px;
+	margin: 3px;
+	background-image: url(images/corgi.jpg);
+	float: left;
+	background-size: cover;
+}
+#p1{ margin: 1px;
+	display: inline;
+	color: white;
+	}
+
+#hobbiesimg1{
+	width: 49%%;
+	margin: 1px;
+	background-image: url();
+	float: left;
+	background-size: cover;
+}
+@media all and (max-width: 480px) {
+	#img{
+		height: 100px;
+		width: 150px;
+	}
+}
