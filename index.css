@@ -1,7 +1,7 @@
 body{
 	 background-image: url(images/background.jpg);
 	 background-repeat:no-repeat;
-	 background-size:cover;
+	 background-size:fill;
 }
 #header{
 	text-align: center;
@@ -10,10 +10,7 @@ body{
 	color: white;
 }
 
-#nav{
-	background-color: #333333;
 
-}
 
 #nav ul{
 	text-align: center;
@@ -39,8 +36,6 @@ body{
 	margin:5px auto;
 	width: 75%;
 	overflow: hidden;
-	background-color: #333333;
-	border: 1px solid;
 	padding: 20px;
 }
 
@@ -50,7 +45,11 @@ body{
 	text-align: center;
 	
 }
-
+#imgfb{
+	float: center;
+	
+	
+}
 #img{
 	height: 250px;
 	width: 300px;
@@ -71,5 +70,14 @@ body{
 	#img{
 		height: 100px;
 		width: 150px;
+	}
+	
+
+}
+
+@media all and (min-width: 767px) {
+	#img{
+		height: 350px;
+		width: 300px;
 	}
 }
